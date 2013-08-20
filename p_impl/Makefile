@@ -36,7 +36,7 @@ USER_LIBS=
 # Compiler flags
 CC  = gcc
 CXX = g++
-CFLAGS=$(USER_FLAGS) -O3 -fPIC -Wall -std=gnu++0x -fopenmp -g -I. -I./. -I././. -I././ref_impl -I././include
+CFLAGS=$(USER_FLAGS) -O3 -fPIC -Wall -std=c++11 -fopenmp -g -I. -I./. -I././. -I././ref_impl -I././include
 CXXFLAGS=$(CFLAGS)
 LDFLAGS=-lpthread
 
