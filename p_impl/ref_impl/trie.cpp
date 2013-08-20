@@ -10,7 +10,7 @@ extern int tableIndex[32][32][32];
 
 long totalTrieNode = 0;
 
-const long MAX_TREE_BUF = 30 * 1024    / sizeof(TrieTree) * 1024;
+const long MAX_TREE_BUF = 30 * 1024  *1024  / sizeof(TrieTree) * 1024;
 
 TrieTree *treeBuf;
 
